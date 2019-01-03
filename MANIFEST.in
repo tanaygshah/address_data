@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include address_data *.css
+recursive-include address_data *.csv
+recursive-include address_data *.html
+recursive-include address_data *.ico
+recursive-include address_data *.js
+recursive-include address_data *.json
+recursive-include address_data *.md
+recursive-include address_data *.png
+recursive-include address_data *.py
+recursive-include address_data *.svg
+recursive-include address_data *.txt
+recursive-exclude address_data *.pyc
